@@ -38,7 +38,6 @@ const Works = () => {
                 title={data[2].title}
                 tools={data[2].tools}
                 description={data[2].description}
-                pathname={data[2].pathname}
                 />
 
             </div>
