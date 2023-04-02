@@ -3,7 +3,7 @@ import ProjCard from '../components/ProjCard';
 import imageJSGame from '../images/js-game-color-bg.png';
 import imageWalkies from '../images/walkies-bg-color.png';
 import imagePortfolio from '../images/placeholder.png';
-import '../styles/styles.css';
+import '../sass/styles.scss';
 import jsonData from '../data/data.json';
 
 const Works = () => {

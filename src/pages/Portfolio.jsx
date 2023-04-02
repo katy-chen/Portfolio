@@ -1,7 +1,7 @@
 import React from 'react';
 import portfolioImg from '../images/placeholder.png';
 import jsonData from '../data/data.json';
-import './portfolio.css';
+import '../sass/styles.scss';
 
 const Portfolio = () => {
 
