@@ -1,100 +1,53 @@
 // // ---------------- NAVIGATION ---------------- 
 
-// /* Nav Styles */
-// .nav {
-//    color: black;
-//    display: flex;
-//    justify-content: space-between;
-//    align-items: center;
-//    gap: 2rem;
-//    padding: 0 1rem;
-   
-//    ul {
-//       padding: 0;
-//       margin: 0;
-//       list-style: none;
-//       display: flex;
-//       gap: 1rem;
-//    }
-   
-//    &:hover{
-//       background-color:#777;
-//    }
-//    &:active{
-//       background-color: #555;
-//    }
-
-// }
- 
-//  /* Hamburger Menu - Mobile Nav */
-//  .hamburger-icon {
-//    width: 40px;
-//    cursor: pointer;
-//    transition: all 0.2s ease-in-out;
-// }
- 
-//  .open {
-//    transform: rotate(90deg);
-// }
- 
-// //  @media (min-width: 37.5em){
-// //    .nav {
-     
-// //    }
-// //  }
-
-
-// FROM CSS
 /* Nav Styles */
 
 .nav {
-   /* background-color: #a9dcec; */
-   color: black;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   gap: 2rem;
-   padding: 0 1rem;
-   margin-left: auto;
- }
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  margin-left: auto;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
  
- .nav ul {
-   padding: 0;
-   margin: 0;
-   list-style: none;
-   display: flex;
-   gap: 1rem;
- }
- 
- .nav a {
-   color: inherit;
-   text-decoration: none;
- }
- 
- .nav li.hover {
-   background-color: #777;
- }
- 
- .nav li.active {
-   background-color: #555;
- }
- 
- /* Hamburger Menu - Mobile Nav */
- .hamburger-icon {
-   width: 40px;
-   cursor: pointer;
-   transition: all 0.2s ease-in-out;
- }
- 
- .open {
-   transform: rotate(90deg);
- }
- 
- @media (min-width: 37.5em){
-   .nav {
-     
-   }
- }
- 
+.nav li.hover {
+  background-color: #777;
+}
+
+.nav li.active {
+  background-color: #555;
+}
+
+/* Hamburger Menu - Mobile Nav */
+.hamburger-icon {
+  width: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-left: auto;
+}
+
+.open {
+transform: rotate(90deg);
+}
+
+//  @media (min-width: 37.5em){
+//    .nav {
+    
+//    }
+//  }
+
  
  
