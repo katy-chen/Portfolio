@@ -24,7 +24,7 @@ const Portfolio = () => {
                     <article className='card-info card-role'>
                         <h4>Duration</h4>
                         <ul>
-                            {data.roles.data.map(item => <li key={item}>{item}</li>)}
+                            {data.roles.map(item => <li key={item}>{item}</li>)}
                         </ul>
                     </article>
                 )}
