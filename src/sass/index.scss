@@ -1,54 +1,12 @@
 @import './variables.scss';
 
 
-// ---------------- RESET ----------------
-
-html {
-   box-sizing: border-box; 
- }
- 
-*,*:before, *:after {
- box-sizing: inherit;
-}
-
-embed,
-iframe,
-object {
- max-width: 100%;
-}
-
-img,
-video {
- max-width: 100%;
- height: auto;
-}
-
 body {
    color: black;
    height: 200vh;
 }
 
 
-// ---------------- TYPOGRAPHY ----------------
-body{
-   font-family: $font-poppins;
-}
-
-h1,
-h2,
-h3,
-h4,
-body {
-   font-family: $font-poppins;
-}
-
-h1 {
-   font-size: 2rem;
-}
-
-h2 {
-   font-size: 1.5rem;
-}
 
 // ---------------- LINKS ----------------
 a {
@@ -61,78 +19,6 @@ a {
       background-color: grey;
    }
 }
-
-
-
-// ---------------- HEADER STYLES ----------------
-
-.header-container {
-   display: flex;
-   padding: 1rem;
-   // desktop:
-   // padding: .8rem 0;
-
-
-   .logo img {
-      width: 60px;
-
-      // media query
-      // .logo img {
-      //    width: 90px;
-      //    height: 90px;
-      // }
-
-   }
-
-   
-}
-// ---------------- NAVIGATION ---------------- 
-
-
-.hamburger-menu
-
-/* Nav Styles */
-.nav {
-   color: black;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   gap: 2rem;
-   padding: 0 1rem;
-   
-   ul {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-      display: flex;
-      gap: 1rem;
-   }
-   
-   &:hover{
-      background-color:#777;
-   }
-   &:active{
-      background-color: #555;
-   }
-
-}
- 
- /* Hamburger Menu - Mobile Nav */
- .hamburger-icon {
-   width: 40px;
-   cursor: pointer;
-   transition: all 0.2s ease-in-out;
-}
- 
- .open {
-   transform: rotate(90deg);
-}
- 
-//  @media (min-width: 37.5em){
-//    .nav {
-     
-//    }
-//  }
 
 
 // ---------------- FOOTER ----------------

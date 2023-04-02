@@ -8,3 +8,24 @@ h2{
    font-family: 'poppins', sans-serif;
    font-size: 2rem;
 }
+
+// ---------------- TYPOGRAPHY ----------------
+body{
+   font-family: $font-poppins;
+}
+
+h1,
+h2,
+h3,
+h4,
+body {
+   font-family: $font-poppins;
+}
+
+h1 {
+   font-size: 2rem;
+}
+
+h2 {
+   font-size: 1.5rem;
+}
