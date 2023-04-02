@@ -17,7 +17,6 @@ const Works = () => {
 
             <div className='projects-container'>
 
-               
                 <ProjCard 
                 image={imageWalkies}
                 title={data[0].title}
