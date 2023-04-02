@@ -2,15 +2,16 @@ import React from 'react';
 import walkiesImage from '../images/png-walkies-transparent-bg.png';
 import jsonData from '../data/data.json';
 
-const GoForWalkies = () => {
-  const data = jsonData[0];
+const MysterVault = () => {
+  const data = jsonData[2];
+  console.log(data.title);
 
   return (
       <section className='project-content' id='gfw-content'>
 
-      <img src={walkiesImage} alt='GoForWalkies Site'/>  
+      <img src={walkiesImage} alt='MysterVault Site'/>  
 
-      <h1 className='project-title'>{data.title}</h1>
+      <h1 className='project-title'>{data?.title}</h1>
       <h2 className='project-subheading'>{data.subheading}</h2>
 
       <section className='project-details'>
@@ -64,6 +65,6 @@ const GoForWalkies = () => {
     
 }
 
-export default GoForWalkies; 
+export default MysterVault; 
 
 

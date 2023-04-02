@@ -16,7 +16,7 @@ const Works = () => {
             <h2>Work</h2>
 
             <div className='projects-container'>
-
+              
                 <ProjCard 
                 image={imageWalkies}
                 title={data[0].title}
@@ -36,6 +36,7 @@ const Works = () => {
                 title={data[2].title}
                 tools={data[2].tools}
                 description={data[2].description}
+                pathname={data[2].pathname}
                 />
 
             </div>

@@ -1,22 +1,26 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const ProjCard = ({image, title, tools, description, pathname }) => {
+const ProjCard = ({ image, title, tools, description, pathname }) => {
+  return (
+    <article className="project-card">
+      <Link to={pathname} className="info-link">
+        <img src={image} alt="works" />
 
-  return( 
-    <article className='project-card'>
-      <img src={image} alt="works" />
+        <div className="details-container">
+          <h2>{title}</h2>
+          {tools ? (
+            <ul className="tools">
+              {tools.map((tool, index) => (
+                <li key={index}>{tool}</li>
+              ))}
+            </ul>
+          ) : null}
 
-      <div className='details-container'>
-        <h2>{title}</h2>
-          <ul className='tools'>
-            {tools.map((tool, index) => <li key={index}>{tool}</li>)}
-          </ul>
-        <p className='projext-description'>{description}</p>
-        <Link to={pathname} className='info-link'>
-        </Link>
-      </div>
+          <p className="projext-description">{description}</p>
+        </div>
+      </Link>
     </article>
-  )
-}
+  );
+};
 export default ProjCard;

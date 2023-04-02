@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import MobileScreen from './MobileScreen';
 import MenuIcon from '../icons/nav-icon.svg';
 import CloseMenu from '../icons/exit-icon.svg';
-import './nav.css';
+import '../sass/styles.scss';
 
 const Nav = () => {
 
