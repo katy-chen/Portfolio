@@ -1,59 +1,73 @@
 import Logo from "../images/logo-copy/my-logo.png";
-import { NavLink } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
-import { useLocation } from 'react-router-dom';
-import '../sass/_header.scss';
+import { NavLink } from "react-router-dom";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+import { useLocation } from "react-router-dom";
+import "../sass/_header.scss";
 
 const Header = ({ children }) => {
-
   const { pathname } = useLocation();
   const helmetMetaData = {
-    '/': {
+    "/": {
       title: "Homepage",
-      content: "A personal portfolio site built by Katy Chen, a Front-End Web Developer, based in Vancouver, BC", 
+      content:
+        "A personal portfolio site built by Katy Chen, a Front-End Web Developer, based in Vancouver, BC",
     },
-    '/works': {
+    "/works": {
       title: "Works",
       content: "A web page displaying a collection of projects",
     },
-    '/about': {
+    "/about": {
       title: "About",
-      content: "Welcome to my Portfolio. Read through my about section to get to know me a little better.",
+      content:
+        "Welcome to my Portfolio. Read through my about section to get to know me a little better.",
     },
-    '/contact': {
+    "/contact": {
       title: "Get in Touch",
       content: "Connect with me to collaborate",
     },
-    '/info': {
+    "/info": {
       title: "Project Details",
-      content: "View the details for each of my portfolio pieces."
+      content: "View the details for each of my portfolio pieces.",
     },
-    '/goforwalkies': {
+    "/goforwalkies": {
       title: "goforwalkies",
-      content: ""
+      content: "",
     },
-      '/portfolio':{
-        title: "portfolio",
-        content: ""
-      }
-    
+    "/portfolio": {
+      title: "portfolio",
+      content: "",
+    },
   };
   return (
     <>
-      <Helmet>
-        <title>{helmetMetaData[pathname.includes('details') ? '/details':pathname].title}</title>
-        <meta name='description' content={helmetMetaData[pathname.includes('details')? '/details':pathname].content}/>
-      </Helmet>
-      <header className='header-container'>
-        <div className='logo-container'>
-          <NavLink to='/' className='logo'>
-            <img src={Logo} alt="website logo"/>
+      <HelmetProvider>
+        <Helmet>
+          <title>
+            {
+              helmetMetaData[
+                pathname.includes("details") ? "/details" : pathname
+              ].title
+            }
+          </title>
+          <meta
+            name="description"
+            content={
+              helmetMetaData[
+                pathname.includes("details") ? "/details" : pathname
+              ].content
+            }
+          />
+        </Helmet>
+      </HelmetProvider>
+      <header className="header-container">
+        <div className="logo-container">
+          <NavLink to="/" className="logo">
+            <img src={Logo} alt="website logo" />
           </NavLink>
         </div>
         {children}
       </header>
     </>
   );
-}
+};
 export default Header;
-
