@@ -1,0 +1,89 @@
+// /* Nav Styles */
+
+
+// DESKTOP
+// .nav {
+//    color: black;
+//    display: flex;
+//    justify-content: space-between;
+//    align-items: center;
+//    gap: 2rem;
+//    padding: 0 1rem;
+   
+//    ul {
+//       padding: 0;
+//       margin: 0;
+//       list-style: none;
+//       display: flex;
+//       gap: 1rem;
+//    }
+   
+//    &:hover{
+//       background-color:#777;
+//    }
+//    &:active{
+//       background-color: #555;
+//    }
+
+// }
+
+// old
+// .nav {
+//    /* background-color: #a9dcec; */
+//    color: black;
+//    display: flex;
+//    justify-content: space-between;
+//    align-items: center;
+//    gap: 2rem;
+//    padding: 0 1rem;
+   
+//    ul {
+//       padding: 0;
+//       margin: 0;
+//       list-style: none;
+//       display: flex;
+//       gap: 1rem;
+//    }
+
+//    a {
+//       color: inherit;
+//       text-decoration: none;
+
+//       // &:hover,
+//       // &:focus,
+//       // &:active {
+//       //    background-color: grey;
+//       // }
+//    }
+  
+// }
+ 
+
+ 
+//  .nav li.hover {
+//    background-color: #777;
+// }
+ 
+//  .nav li.active {
+//    background-color: #555;
+// }
+ 
+//  /* Hamburger Menu - Mobile Nav */
+//  .hamburger-icon {
+//    width: 40px;
+//    cursor: pointer;
+//    transition: all 0.2s ease-in-out;
+// }
+ 
+//  .open {
+//    transform: rotate(90deg);
+// }
+ 
+// //  @media (min-width: 37.5em){
+// //    .nav {
+     
+// //    }
+// //  }
+ 
+ 
+ 

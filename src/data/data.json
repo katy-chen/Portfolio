@@ -1,0 +1,64 @@
+[
+    {
+        "id": "goforwalkies",
+        "title": "Go For Walkies",
+        "subheading": "An E-Commerce Wesbite built using WooCommerce and WordPress",
+        "description": "A custom built e-commerce platform that allows dog owners to schedule and purchase professional dog-walking services online. The site was built using WordPress and WooCommerce.",
+        "overview": "Go For Walkies is an e-commerce site with a custom-built theme using WordPress and WooCommerce. The website is designed to provide a hassle-free experience for dog owners who are looking to book dog walking services at their preferred time. In addition to booking individual walks, the platform also offers various options for buying passes, packages, or subscriptions to added convenience. The goal for Go For Walkies is to make dog walking services easily accessible and stress-free for dog owners.",
+        "roles": ["Content Planning", "Developer"],
+        "duration": "Ongoing",
+        "tools": [
+            "WordPress", 
+            "WooCommerce", 
+            "PHP",  
+            "HTML5", 
+            "Sass",
+            "GitHub", 
+            "Gulp" 
+        ],
+        "livesite": "https://goforwalkies.bcitwebdeveloper.ca/",
+        "github": "https://github.com/katy-chen/goforwalkies",
+        "imageThumnail": "../images/walkies-bg-color.png",
+        "image": "../images/png-walkies-transparent-bg.png",
+        "planning": [
+            {
+                "title": "Planning",
+                "description": "Our team collaboratively implemented thoroughly planning, designing, and developing a custom WordPress theme and we implemented a flexible and easy-to-use booking system. We created custom fields for the entirety of the website using the Advanced Custom Fields (ACF) plugin to customize and structure the output of our content."    
+            }
+        ]
+    },
+    {
+        "id": "portfolio",
+        "title": "Portfolio",
+        "subheading": "A Portfolio Website built using ReactJS",
+        "overiew": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae lobortis est. Aenean rutrum varius commodo. Etiam feugiat dignissim massa non varius. Integer pellentesque nisl eget blandit feugiat. Nam sit amet vestibulum libero. Ut condimentum consequat mi non rutrum.  Aenean pulvinar sagittis urna sit amet auctor. Ut purus nibh, feugiat in odio eu, pretium placerat sem. Proin congue fermentum arcu. Aliquam erat volutpat. Sed est orci, scelerisque et luctus sit amet, sollicitudin ut nisl. Morbi volutpat finibus lobortis. Vivamus vel ultrices eros. Phasellus quis urna eros.",
+        "role": "Developer",
+        "duration": "2 weeks",
+        "tools": ["ReactJS", "HTML5", "CSS3/Sass"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae lobortis est. Aenean rutrum varius commodo. Etiam feugiat dignissim massa non varius. Integer pellentesque nisl eget blandit feugiat. Nam sit amet vestibulum libero.Vivamus vel ultrices eros. Phasellus quis urna eros.",
+        "imageThumnail": "../images/placeholder.png",
+        "image": "../images/placeholder.png",
+        "github": "https://github.com/katy-chen/goforwalkies",
+        "livesite": "https://goforwalkies.bcitwebdeveloper.ca/",
+        "reflection": "Lorem Ipsum: Relfection part goes here: a clear understanding of what it takes to create something exceptional. I started by carefully picking out the keywords that I wanted to include, making sure that each one was strategically chosen to convey the message that the post was meant to send.Once I had a clear idea of the keywords I wanted to focus on, I began brainstorming different ways that I could approach the topic."
+    },
+    {   
+        "id": "mysteryvault",
+        "title": "Mystery Vault",
+        "subheading": "A web-based number guessing game built with JavaScript and jQery",
+        "overiew": "Mystery Vault is an an interactive game that challenges users to guess the randomly generated number within a specific range, and features three levels of difficulty to make the game progressively challenging. ",
+        "role": "Developer",
+        "duration": "2 weeks",
+        "tools": ["JavaScript", "jQuery", "HTML5", "CSS3, Bootstrap"],
+        "github": "https://github.com/katy-chen/",
+        "livesite": "https://katychenwebdev.com/mystery-vault",
+        "description": "A web-based number-guessing game built using an object-oritented approach with jQuery.",
+        "imageThumbnail": "../images/js-game-color-bg.png",
+        "image": "../images/png-js-game-transparent-bg.png"
+    }
+]
+
+
+
+
+    

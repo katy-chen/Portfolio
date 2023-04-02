@@ -1,0 +1,10 @@
+@use "variables" as *;
+
+@mixin breakpoint($point) {
+   // breakpoint med: 48em
+   @if $point == $breakpoint-med {
+      @media (min-width: $breakpoint-med){
+         @content;
+      }
+   }
+}
