@@ -2,7 +2,7 @@ import Logo from "../images/logo-copy/my-logo.png";
 import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
-// import '../sass/_header.scss';
+import '../sass/_header.scss';
 
 const Header = ({ children }) => {
 
