@@ -22,6 +22,7 @@ const Works = () => {
                 title={data[0].title}
                 tools={data[0].tools}
                 description={data[0].description}
+                pathname={data[0].pathname}
                 />
 
                 <ProjCard 
@@ -29,6 +30,7 @@ const Works = () => {
                 title={data[1].title}
                 tools={data[1].tools}
                 description={data[1].description}
+                pathname={data[1].pathname}
                 />
 
                 <ProjCard 

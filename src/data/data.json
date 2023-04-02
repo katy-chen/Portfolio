@@ -4,6 +4,7 @@
         "title": "Go For Walkies",
         "subheading": "An E-Commerce Wesbite built using WooCommerce and WordPress",
         "description": "A custom built e-commerce platform that allows dog owners to schedule and purchase professional dog-walking services online. The site was built using WordPress and WooCommerce.",
+        "pathname": "/goforwalkies",
         "overview": "Go For Walkies is an e-commerce site with a custom-built theme using WordPress and WooCommerce. The website is designed to provide a hassle-free experience for dog owners who are looking to book dog walking services at their preferred time. In addition to booking individual walks, the platform also offers various options for buying passes, packages, or subscriptions to added convenience. The goal for Go For Walkies is to make dog walking services easily accessible and stress-free for dog owners.",
         "roles": ["Content Planning", "Developer"],
         "duration": "Ongoing",
@@ -18,7 +19,7 @@
         ],
         "livesite": "https://goforwalkies.bcitwebdeveloper.ca/",
         "github": "https://github.com/katy-chen/goforwalkies",
-        "imageThumnail": "../images/walkies-bg-color.png",
+        "imageThumbnail": "../images/walkies-bg-color.png",
         "image": "../images/png-walkies-transparent-bg.png",
         "planning": [
             {
@@ -30,8 +31,9 @@
     {
         "id": "portfolio",
         "title": "Portfolio",
+        "pathname": "/portfolio",
         "subheading": "A Portfolio Website built using ReactJS",
-        "overiew": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae lobortis est. Aenean rutrum varius commodo. Etiam feugiat dignissim massa non varius. Integer pellentesque nisl eget blandit feugiat. Nam sit amet vestibulum libero. Ut condimentum consequat mi non rutrum.  Aenean pulvinar sagittis urna sit amet auctor. Ut purus nibh, feugiat in odio eu, pretium placerat sem. Proin congue fermentum arcu. Aliquam erat volutpat. Sed est orci, scelerisque et luctus sit amet, sollicitudin ut nisl. Morbi volutpat finibus lobortis. Vivamus vel ultrices eros. Phasellus quis urna eros.",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae lobortis est. Aenean rutrum varius commodo. Etiam feugiat dignissim massa non varius. Integer pellentesque nisl eget blandit feugiat. Nam sit amet vestibulum libero. Ut condimentum consequat mi non rutrum.  Aenean pulvinar sagittis urna sit amet auctor. Ut purus nibh, feugiat in odio eu, pretium placerat sem. Proin congue fermentum arcu. Aliquam erat volutpat. Sed est orci, scelerisque et luctus sit amet, sollicitudin ut nisl. Morbi volutpat finibus lobortis. Vivamus vel ultrices eros. Phasellus quis urna eros.",
         "role": "Developer",
         "duration": "2 weeks",
         "tools": ["ReactJS", "HTML5", "CSS3/Sass"],
