@@ -13,7 +13,7 @@ const Works = () => {
 
         <section className='project-display-section'>
 
-            <h2>Work</h2>
+            <h2 className='section-title'>work.</h2>
 
             <div className='projects-container'>
               
@@ -21,7 +21,8 @@ const Works = () => {
                 image={imageWalkies}
                 title={data[0].title}
                 tools={data[0].tools}
-                description={data[0].description}
+                // description={data[0].description}
+                subheading={data[0].subheading}
                 pathname={data[0].pathname}
                 />
 
@@ -29,7 +30,8 @@ const Works = () => {
                 image={imagePortfolio}
                 title={data[1].title}
                 tools={data[1].tools}
-                description={data[1].description}
+                // description={data[1].description}
+                subheading={data[1].subheading}
                 pathname={data[1].pathname}
                 />
 
