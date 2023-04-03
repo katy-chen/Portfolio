@@ -1,6 +1,12 @@
-@use 'header';
-@use 'typography';
-@use 'footer';
-@use 'mixins';
-@use 'variables';
+@use 'defaults';
 @use 'reset';
+@use 'variables';
+@use 'mixins';
+@use 'typography';
+@use 'header';
+@use 'nav';
+@use 'footer';
+@use 'home';
+@use 'about';
+@use 'portfolio';
+@use 'projcard';

@@ -1,31 +1,46 @@
-h1 {
-   font-size: 2.5rem;
-   font-weight: 800;
-   font-style: 'poppins', sans-serif;
-}
-
-h2{
-   font-family: 'poppins', sans-serif;
-   font-size: 2rem;
-}
-
-// ---------------- TYPOGRAPHY ----------------
-body{
-   font-family: $font-poppins;
-}
+@use "variables" as *;
 
 h1,
 h2,
 h3,
 h4,
 body {
-   font-family: $font-poppins;
+   font-family: $font;
 }
 
 h1 {
-   font-size: 2rem;
+   font-size: $font-lrg;
+   font-weight: 700;
 }
 
 h2 {
-   font-size: 1.5rem;
+   font-size: $font-lrg;
 }
+
+h3{
+   color: $color-main;
+}
+
+h4{
+   color: $color-brand;
+   font-weight: 600;
+}
+
+p {
+   font-size: $font-xs;
+}
+
+// ---------------- LINKS ----------------
+ul {
+   padding-left: .2rem;
+}
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+

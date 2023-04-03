@@ -1,0 +1,62 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.project-content {
+    h1 {
+        font-size: $font-med;
+    }
+
+    h2 {
+        font-size: $font-xs;
+        font-weight: 600;
+        color: $color-main;
+
+    }
+
+    h3 {
+        font-weight: 600;
+        color: $color-main;
+    }
+
+    h1,
+    h3,
+    h4,
+    ul {
+        margin-bottom: 0;
+    }
+
+    .list {
+        margin-top: 0;
+    }
+
+    p, li {
+        font-size: $font-mobl-sm;
+        margin-top: 0;
+    }
+
+    .project-details {
+        display: flex;
+        flex-direction: column;
+        // media query
+        // gap: 4rem;
+        .stack-list {
+            padding-left: 0;
+        }
+    
+        button {
+            @include btn-style;
+        }
+    }
+
+    .overview {
+        padding-top: 1rem;
+    }
+
+    @include breakpoint($breakpoint-med) {
+        #cards {
+            display: flex;
+        }
+    }
+}
+
+

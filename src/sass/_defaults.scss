@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+body {
+   color: black;
+   height: 100%;
+   margin: 0;
+}
+
+// ---------------- RESET ----------------
+
+
+html, body {
+   margin: 0;
+   padding: 0;
+
+   // #root {
+   //     height: 100vh;
+   //     max-width: 100vh;
+   // }
+}
+
+
+
+

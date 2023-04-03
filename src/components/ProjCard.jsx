@@ -1,22 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import "../sass/styles.scss";
 
-const ProjCard = ({image, title, tools, description, pathname }) => {
+const ProjCard = ({ image, title, subheading, description, pathname }) => {
+  return (
+    <article className="project-card">
+      <Link to={pathname} className="info-link">
+          <img src={image} alt="works" />
+          <h3>{title}</h3>
+          <p className='subheading'>{subheading}</p>
+          {/* <p id="read-more-cta">View Details</p> */}
+      </Link>
 
-  return( 
-    <article className='project-card'>
-      <img src={image} alt="works" />
-
-      <div className='details-container'>
-        <h2>{title}</h2>
-          <ul className='tools'>
-            {tools.map((tool, index) => <li key={index}>{tool}</li>)}
-          </ul>
-        <p className='projext-description'>{description}</p>
-        <Link to={pathname} className='info-link'>
-        </Link>
-      </div>
     </article>
-  )
-}
+  );
+};
 export default ProjCard;
