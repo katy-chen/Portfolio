@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import '../sass/styles.scss';
 
 export default function MobileScreen() {
   

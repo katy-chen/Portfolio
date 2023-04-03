@@ -7,7 +7,7 @@ import './sass/styles.scss';
 
 function Layout() {
     return (
-        <div className='site-wrapper'>
+        <>
             <Header>
                 <Nav/>
             </Header>
@@ -15,7 +15,7 @@ function Layout() {
                 <Outlet/>
             </main> 
             <Footer />
-    </div>
+    </>
     );
 }
 export default Layout;

@@ -8,7 +8,7 @@ const Portfolio = () => {
     const data = jsonData[1];
 
     return (
-        <section className='data-content portfolio-pg' id='portoflio-content'>
+        <section className='project-content'>
 
         <img src={portfolioImg} alt='Portfolio Img'/>
     
@@ -18,7 +18,16 @@ const Portfolio = () => {
             <section className='project-details'>
 
                 <h3>Overview</h3>
-                <p>{data.overview}</p>
+                <p className='overview'>{data.overview}</p>
+
+                <div className='btn-group-container'>
+                    <button className='project-btn'>
+                        <a href={data.livesite}>Live Site</a>
+                    </button>
+                    <button className='project-btn'>
+                        <a href={data.github}>GitHub</a>
+                    </button>
+                </div>
 
                 {data.roles && (
                     <article className='card-info card-role'>
@@ -34,21 +43,15 @@ const Portfolio = () => {
                     <p>{data.duration}</p>
                 </article>
 
-                <article className='card-info card-tools'>
+                {data.tools && (
+                <article className="card-info card-tools">
                     <h4>Tools</h4>
-                    <ul className='stack-list'>
-                        <li>{data.tools.map(item => item)}</li>     
+                    <ul>
+                        {data.tools.map((item) => <li key={item}>{item}</li>)}
                     </ul>
                 </article>
-
-                <div className='btn-group-container'>
-                    <button className='project-btn'>
-                        <a href={data.livesite}>Live Site</a>
-                    </button>
-                    <button className='project-btn'>
-                        <a href={data.github}>GitHub</a>
-                    </button>
-                </div>
+                )}
+  
             </section>
 
            <section className='section-content-planning'>

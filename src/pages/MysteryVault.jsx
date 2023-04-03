@@ -1,5 +1,6 @@
 import React from "react";
 import jsonData from "../data/data.json";
+import mystVaultImg from '../images/png-js-game-transparent-bg.png';
 
 const MysteryVault = () => {
   const data = jsonData[2];
@@ -7,7 +8,7 @@ const MysteryVault = () => {
 
   return (
     <section className="project-content" id="mystery-content">
-      <img src={data.imageThumbnail} alt="Mystery Vault Site" />
+      <img src={mystVaultImg} alt="Mystery Vault Site" />
 
       <h1 className="project-title">{data?.title}</h1>
       <h2 className="project-subheading">{data?.subheading}</h2>
@@ -15,6 +16,15 @@ const MysteryVault = () => {
       <section className="project-details">
         <h3>Overview</h3>
         <p>{data.overview}</p>
+
+        <div className="btn-group-container">
+          <button className="project-btn">
+            <a href={data.livesite}>Live Site</a>
+          </button>
+          <button className="project-btn">
+            <a href={data.github}>GitHub</a>
+          </button>
+        </div>
 
         {data.role && (
           <article className="card-info card-role">
@@ -38,14 +48,6 @@ const MysteryVault = () => {
           </article>
         )}
 
-        <div className="btn-group-container">
-          <button className="project-btn">
-            <a href={data.livesite}>Live Site</a>
-          </button>
-          <button className="project-btn">
-            <a href={data.github}>GitHub</a>
-          </button>
-        </div>
       </section>
 
       {data?.planning && (

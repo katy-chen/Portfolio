@@ -2,11 +2,10 @@
     {
         "id": "goforwalkies",
         "title": "Go For Walkies",
-        "subheading": "An E-Commerce Wesbite built using WooCommerce and WordPress",
-        "description": "A custom built e-commerce platform that allows dog owners to schedule and purchase professional dog-walking services online. The site was built using WordPress and WooCommerce.",
         "pathname": "/goforwalkies",
+        "subheading": "An E-Commerce Wesbite built using WooCommerce and WordPress",
         "overview": "Go For Walkies is an e-commerce site with a custom-built theme using WordPress and WooCommerce. The website is designed to provide a hassle-free experience for dog owners who are looking to book dog walking services at their preferred time. In addition to booking individual walks, the platform also offers various options for buying passes, packages, or subscriptions to added convenience. The goal for Go For Walkies is to make dog walking services easily accessible and stress-free for dog owners.",
-        "roles": ["Content Planning", "Developer"],
+        "role": ["Content Planning", "Developer"],
         "duration": "Ongoing",
         "tools": [
             "WordPress", 
@@ -17,6 +16,7 @@
             "GitHub", 
             "Gulp" 
         ],
+        "description": "A custom built e-commerce platform that allows dog owners to schedule and purchase professional dog-walking services online. The site was built using WordPress and WooCommerce.",
         "livesite": "https://goforwalkies.bcitwebdeveloper.ca/",
         "github": "https://github.com/katy-chen/goforwalkies",
         "imageThumbnail": "../images/walkies-bg-color.png",
@@ -26,27 +26,35 @@
                 "title": "Planning",
                 "description": "Our team collaboratively implemented thoroughly planning, designing, and developing a custom WordPress theme and we implemented a flexible and easy-to-use booking system. We created custom fields for the entirety of the website using the Advanced Custom Fields (ACF) plugin to customize and structure the output of our content."    
             }
-        ]
+        ],
+        "reflection": "Working with a group to develop a dog walking service website using WordPress, WooCommerce, and team collaboration was an interesting and challenging experience. The project required us to plan and organize lots of content and wireframes, which was a daunting task, but we managed to pull it off successfully.One of the things I enjoyed about this project was the opportunity to work with a group of talented and dedicated individuals. Each person brought their own unique skills and ideas to the table, which helped to make the final product much better than it would have been if we had worked alone. Collaboration was key, and we were able to divide up the work and assign tasks based on each person's strengths. Another challenge we faced was learning how to use WordPress and WooCommerce effectively. These platforms were new to some members of the group, but with a bit of training and practice, we were able to navigate them smoothly. We spent a lot of time discussing and testing different design ideas, as well as tweaking the site's functionality to make sure it would work well for our target audience. Throughout the project, we were constantly communicating with each other to ensure that we were all on the same page. We held regular meetings and video calls to discuss progress, share ideas, and troubleshoot any issues that arose. This helped us stay organized and focused, and we were able to complete the project within our deadline. Overall, working with a group to develop a dog walking service website using WordPress, WooCommerce, and team collaboration was a rewarding experience. It taught me the value of communication, planning, and teamwork, and I am grateful for the opportunity to have been a part of it."
     },
     {
         "id": "portfolio",
         "title": "Portfolio",
         "pathname": "/portfolio",
-        "subheading": "A Portfolio Website built using ReactJS",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae lobortis est. Aenean rutrum varius commodo. Etiam feugiat dignissim massa non varius. Integer pellentesque nisl eget blandit feugiat. Nam sit amet vestibulum libero. Ut condimentum consequat mi non rutrum.  Aenean pulvinar sagittis urna sit amet auctor. Ut purus nibh, feugiat in odio eu, pretium placerat sem. Proin congue fermentum arcu. Aliquam erat volutpat. Sed est orci, scelerisque et luctus sit amet, sollicitudin ut nisl. Morbi volutpat finibus lobortis. Vivamus vel ultrices eros. Phasellus quis urna eros.",
+        "subheading": "A Portfolio Website built with ReactJS",
+        "overview": "My portfolio site was developed using React and Sass, and serves as a starting point for me to showcase my development skills as a front-end developer.",
         "role": "Developer",
         "duration": "2 weeks",
         "tools": ["ReactJS", "HTML5", "CSS3/Sass"],
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae lobortis est. Aenean rutrum varius commodo. Etiam feugiat dignissim massa non varius. Integer pellentesque nisl eget blandit feugiat. Nam sit amet vestibulum libero.Vivamus vel ultrices eros. Phasellus quis urna eros.",
+        "github": "https://github.com/katy-chen/portfolio",
+        "livesite": "https://katychenwebdev.com",
         "imageThumnail": "../images/placeholder.png",
         "image": "../images/placeholder.png",
-        "github": "https://github.com/katy-chen/goforwalkies",
-        "livesite": "https://goforwalkies.bcitwebdeveloper.ca/",
-        "reflection": "Lorem Ipsum: Relfection part goes here: a clear understanding of what it takes to create something exceptional. I started by carefully picking out the keywords that I wanted to include, making sure that each one was strategically chosen to convey the message that the post was meant to send.Once I had a clear idea of the keywords I wanted to focus on, I began brainstorming different ways that I could approach the topic."
+        "planning": [
+            {
+                "title": "Planning",
+                "description": "Our team collaboratively implemented thoroughly planning, designing, and developing a custom WordPress theme and we implemented a flexible and easy-to-use booking system. We created custom fields for the entirety of the website using the Advanced Custom Fields (ACF) plugin to customize and structure the output of our content."    
+            }
+        ],
+        "reflection": "Throughout the process of creating this portfolio, I faced challenges and obstacles that tested my abilities and pushed me to grow. I recognize that my portfolio is a work in progress and while I may not feel like it fully reflects my identity and accomplishments at this stage of my career, I'm going to continue improving and developing my skills as I progress through my program."
     },
     {   
         "id": "mysteryvault",
         "title": "Mystery Vault",
+        "pathname": "/mysteryvault",
         "subheading": "A web-based number guessing game built with JavaScript and jQery",
         "overiew": "Mystery Vault is an an interactive game that challenges users to guess the randomly generated number within a specific range, and features three levels of difficulty to make the game progressively challenging. ",
         "role": "Developer",
@@ -57,7 +65,13 @@
         "description": "A web-based number-guessing game built using an object-oritented approach with jQuery.",
         "imageThumbnail": "../images/js-game-color-bg.png",
         "image": "../images/png-js-game-transparent-bg.png",
-        "pathname": "/mysteryvault"
+        "planning": [
+            {
+                "title": "Planning",
+                "description": "Our team collaboratively implemented thoroughly planning, designing, and developing a custom WordPress theme and we implemented a flexible and easy-to-use booking system. We created custom fields for the entirety of the website using the Advanced Custom Fields (ACF) plugin to customize and structure the output of our content."    
+            }
+        ],
+        "reflection": ""
     }
 ]
 
