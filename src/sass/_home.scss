@@ -1,0 +1,128 @@
+@use 'variables' as * ;
+@use 'mixins' as *;
+
+
+// --------- Home Layout ---------
+.homepage-section,
+.project-display-section,
+.about-section,
+.project-content {
+    margin: $margin;
+}
+
+@include breakpoint($breakpoint-med) {
+    .home-intro {
+        padding: 2rem;
+    }
+}
+
+// --------- Home Landing Styles ---------
+.home-intro{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: $padding-lrg;
+    margin: $margin;
+    max-width: 90rem;
+    
+    .intro-heading {
+        font-size: $heading-lrg;
+        margin: 0;
+        padding-bottom: $padding-xsml;
+        line-height: 3.9rem;
+
+        @media(min-width: 48em){
+            font-size: 4rem;
+            padding-top: .5rem;
+        }
+
+        @include breakpoint($breakpoint-lrg) {
+            font-size: 7rem;
+            padding-top: 2rem;
+        }
+    }
+    
+    .intro-subheading {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.5em;
+
+        @include breakpoint($breakpoint-med) {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        @include breakpoint($breakpoint-lrg) {
+            font-size: 5rem;
+            line-height: 6rem;
+        }
+    }
+    
+    .intro-msg {
+        font-size: $font-med;
+        margin: 0;
+
+        @media(min-width: 37.5em){
+            font-size: 2.5rem;
+            padding-top: .5rem;
+        }
+        @media(min-width: 48em){
+            font-size: 1.5rem;
+            padding-top: .5rem;
+        }
+        @include breakpoint($breakpoint-lrg) {
+            font-size: 2.3rem;
+            padding-top: 2rem;
+        }
+    }
+
+    // @include breakpoint($breakpoint-med) {
+
+
+    //     .intro-heading {
+    //         font-size: 4rem;
+    //     }
+    // }
+
+    
+}
+
+// -------------- Contact Section --------------
+
+.section-contact {
+    // padding: $padding-lrg $padding-lrg $padding-xl;
+    margin-bottom: 5.5rem;
+
+    .separator {
+        position: relative;
+        background-color: #8abdf8;
+        width: 100%;
+        padding-top: 3rem;
+        padding-bottom: 0;
+
+        h2 {
+            margin: 0;
+
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
