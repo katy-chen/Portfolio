@@ -52,7 +52,8 @@ const Portfolio = () => {
             </section>
 
            <section className='section-content-planning'>
-            {data.planning.map((content, index) => (
+            {data.planning && 
+            data?.planning?.map((content, index) => (
                 <div key={index} className='proj-planning-content'>
                     <h2>{content.title}</h2>
                     <p>{content.description}</p>
