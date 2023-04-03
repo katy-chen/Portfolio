@@ -1,33 +1,55 @@
 
-$color-dark: rgb(29,29, 29);
-$color-light: white;
-$color-primary: lightblue;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800');
 
+// Colors
+$color-main: #19376D;
+$color-primary: #389ae7;
+$color-secondary: #8abdf8;
+$color-brand: #1363DF;
+$color-lightblue: lightblue;
 $color-bg: rgb(244, 244, 255);
 
+<<<<<<< HEAD
+=======
+// Spacing
+>>>>>>> working-branch
 $spacing-sml: .5rem;
 $spacing-med: 1rem;
 $spacing-lrg: 2rem;
 
+$padding-xsml: .5rem;
+$padding-sml: 10px;
+$padding-med: 1rem;
+$padding-lrg: 2rem;
+$padding-xl: 2.5rem;
+
+$margin: 0 1.3rem;
+
 $border-radius: 12px;
 
 $header-height: 6.25rem;
-// $header-height: 4.5rem;
 
-$breakpoint-sml: 37.5em;
-$breakpoint-med: 48em;
-$breakpoint-lrg: 64em;
-$breakpoint-xl: 75em;
+$breakpoint-sml: 37.5em; // 600px
+$breakpoint-med: 48em; // 768px
+$breakpoint-lrg: 64em; // 1024px
+$breakpoint-xl: 75em; // 1200px
 
-$font-poppins: 'Poppins', sans-serif;
+$font: 'Poppins', sans-serif;
+$font-secondary: 'Inter', sans-serif;
+
+$font-xs: 1rem;
+$font-sml: 1.2rem;
+$font-med: 1.5rem;
+$font-lrg: 2rem;
+$font-xl: 2.5rem;
+
+$font-cta: 13px;
+$heading-lrg: 3.1rem;
+
+$font-mobl-sm: 13px;
 
 
-// $font-main: 
-// $font-heading: 
-
-// $font-sml: ;
-// $font-med:
-// $font-lrg: 
 
 
 
