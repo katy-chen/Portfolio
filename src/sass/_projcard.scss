@@ -1,10 +1,22 @@
+@use 'variables' as *;
+
 .project-card {
-    width: 25rem;
-    height: 30rem;
+    width: 100%;
     overflow: hidden;
-    padding: 1rem;
-    margin: 1rem;
     position: relative;
+    text-align: center;
+    font-size: $font-sml;
+    margin-bottom: 3rem;
+
+    .subheading {
+        font-weight: 500;
+        line-height: 18px;
+    }
+    
+    p {
+        font-size: 13px;
+        color: $color-main;
+    }
 
     a {
         & > * {
@@ -14,7 +26,6 @@
         img {
             object-fit: cover;
         }
-
     }
 
     @media (min-width: 48em) {
@@ -23,6 +34,10 @@
         &:focus {
             transform: scale(1.1);
             transition: all .2s ease-in-out;
+        }
+
+        &:visited {
+            color: $color-main;
         }
     }
 }
