@@ -8,3 +8,27 @@
       }
    }
 }
+
+@mixin breakpoint($point) {
+   // breakpoint lrg: 64em
+   @if $point == $breakpoint-lrg {
+      @media (min-width: $breakpoint-lrg){
+         @content;
+      }
+   }
+}
+
+@mixin btn-style {
+   color: white;
+   background-color: $color-primary;
+   padding: .6rem 1rem;
+   border: 2px solid white;
+   border-radius: 3px;
+   margin-right: 1rem;
+
+   a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+   }
+}
