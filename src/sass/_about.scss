@@ -1,0 +1,16 @@
+@use 'variables' as *;
+
+.about-section {
+
+    article {
+        padding-bottom: $padding-sml;
+    }
+    h3{
+        font-size: $font-med;
+    }
+    h4{ 
+        // text-transform: uppercase;
+        color: #1363DF;
+    }
+}
+
